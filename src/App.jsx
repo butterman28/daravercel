@@ -12,18 +12,18 @@ import PodcastDetail from './components/podcastdetails';
 function App() {
 
   return (
-  <>
-  <Router>
-    <Navbar/>
-  <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="/post" element={<Post/>} />
-    <Route path="/post/:id" element={<PostDetail/>} />
-    <Route path="/podcast" element={<Podcast/>} />
-    <Route path="/podcast/:id" element={<PodcastDetail/>} />
-  </Routes>
-  </Router>
-  </>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/post" element={<Post />} />
+          <Route path="/post/:id" element={<PostDetail />} />
+          <Route path="/podcast" element={<Podcast />} />
+          <Route path="/podcast/:id" element={<PodcastDetail />} />
+        </Routes>
+      </Router>
+    </>
 
   );
 }

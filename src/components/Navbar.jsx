@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 
 const navItems = [
-  { label: "Home", path: "/" },
+  { label: "Home", path: "/home" },
   //{ label: "About", path: "/about" },
   { label: "Articles", path: "/post" },
   //{ label: "Podcast", path: "/podcast" },
