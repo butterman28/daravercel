@@ -105,7 +105,7 @@ export const PostProvider = ({ children }) => {
       setFilteredpostData(postData);
       //setCate("All Post");
       //defcate = "All Post"
-      sessionStorage.setItem('category', "All Post");
+      sessionStorage.setItem('category', "Articles");
       sessionStorage.setItem('filteredpostData', JSON.stringify(postData));
     } else {
       // Filter items by category
