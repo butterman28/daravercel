@@ -5,7 +5,7 @@ import PauseIcon from "@mui/icons-material/Pause";
 import Replay5Icon from "@mui/icons-material/Replay5";
 import Forward5Icon from "@mui/icons-material/Forward5";
 import WaveSurfer from "wavesurfer.js";
-
+//import makeStyles from "@mui/material";
 const CustomAudioPlayer = ({ audioSrc }) => {
   const waveformRef = useRef(null);
   const wavesurfer = useRef(null);
