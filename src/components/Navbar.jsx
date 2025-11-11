@@ -58,10 +58,9 @@ function Navbar() {
           <Typography textAlign="left" variant="h6" component="div">
             Dara Alegbeleye
           </Typography>
-
-
-          {/* Navigation Items on the Right */}
-          <Box sx={{ ml: 'auto', display: { xs: "none", md: "flex" } }}>
+          <Box width={200} />  
+          {/* Navigation Items on the Right  ml: 'auto',  */}
+          <Box sx={{display: { xs: "none", md: "flex" } }}>
             {navItems.map((item, index) => (
               <Button
                 key={index}
